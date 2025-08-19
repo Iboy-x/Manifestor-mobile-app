@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Manifestor-files",
+    "slug": "Manifestor-files",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "manifestorfiles",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.devulus.Manifestor"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "FIREBASE_API_KEY": "AIzaSyDEAuBmiq3Wz77rMBL_FTpNxq3fBZvuw8I",
+      "FIREBASE_AUTH_DOMAIN": "manifestor-df56e.firebaseapp.com",
+      "FIREBASE_PROJECT_ID": "manifestor-df56e",
+      "FIREBASE_STORAGE_BUCKET": "manifestor-df56e.firebasestorage.app",
+      "FIREBASE_MESSAGING_SENDER_ID": "160306240167",
+      "FIREBASE_APP_ID": "1:160306240167:web:2060462007052e06721982",
+      "router": {},
+      "eas": {
+        "projectId": "77f94b5e-6089-4df7-aa6f-273988d5656e"
+      }
+    }
+  }
+}
